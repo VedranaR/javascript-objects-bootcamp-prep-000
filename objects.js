@@ -9,7 +9,7 @@ function updatePlaylist(playlist, artistName, title){
 }
 
 function removeFromPlaylist(playlist, artistName){
-  delete playlist.artistName;
+  delete playlist.dartistName;
   return playlist;
-  //delete the key-value pair from the playlist and return the updated playlist.
+
 }
